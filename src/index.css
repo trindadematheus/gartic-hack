@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+body {
+  height: 100vh;
+  background-color: transparent;
+
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.input-area {
+  background-color: #111;
+  width: 100%;
+  padding: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-paste {
+  background-color: #222;
+  border: 1px solid #555;
+  padding: 8px;
+  border-radius: 4px;
+  color: #ccc;
+}
+
+.overlay-area {
+  background-color: rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#image {
+  opacity: 0.2;
+  display: block;
+  width: 80%;
+  height: 80%;
+}
